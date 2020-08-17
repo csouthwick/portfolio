@@ -1,0 +1,19 @@
+/* global styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color:#222;
+    --secondary-color:#adf;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    margin: 1em 0;
+}
+
