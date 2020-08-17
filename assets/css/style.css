@@ -45,7 +45,7 @@ header nav ul{
 header nav a{
     color: var(--secondary-color);
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     padding: 6px 12px;
 }
 
@@ -67,7 +67,7 @@ section{
 }
 
 section h3{
-    font-size: 1.5rem;
+    font-size: 1.5em;
     text-align: right;
     margin-right: 1em;
     padding-right: 1em;
@@ -83,7 +83,6 @@ section > div{
 .work-table{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
     gap: 1em;
 }
 .work-table > :first-child{
@@ -138,4 +137,30 @@ section > div{
     flex-wrap: wrap;
     justify-content: space-around;
     list-style: none;
+}
+
+
+/* tablet and phone styles */
+@media screen and (max-width: 980px) {
+    header{
+        font-size: .8em;
+    }
+    section{
+        display: block;
+    }
+    section h3{
+        font-size: 1.5em;
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: .5em;
+        padding-right: 0;
+        border-right: none;
+        text-decoration: underline;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .work-table{
+        grid-template-columns: 1fr;
+    }
 }
