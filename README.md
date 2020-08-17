@@ -12,4 +12,4 @@ A showcase of past and present code projects maintained by Chris Southwick.
 * CSS
 
 ## Website
-https://csouthwick.github.io/portfolia/
+https://csouthwick.github.io/portfolio/
