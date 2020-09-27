@@ -15,4 +15,4 @@ A showcase of past and present code projects maintained by Chris Southwick.
 https://csouthwick.github.io/portfolio/
 
 ## Screenshot
-![screenshot of the portfolio site](Screenshot_2020-08-17_Chris_Southwick_Portfolio.jpg)
+![screenshot of the portfolio site](./assets/images/Screenshot_2020-08-17_Chris_Southwick_Portfolio.jpg)
