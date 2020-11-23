@@ -152,6 +152,12 @@ section > div{
 #quarantine-movie-nights{
     background-image: url("../images/quarantine-movie-nights.jpg");
 }
+#kill-the-keg{
+    background-image: url("../images/kill-the-keg.png");
+    background-size: contain;
+    background-position: center;
+    background-color: #000;
+}
 
 /* contact styles */
 .contact-list{
